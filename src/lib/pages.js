@@ -125,6 +125,9 @@ export async function getTopLevelPages() {
   // Order pages by menuOrder
   navPages.sort((a, b) => parseFloat(a.menuOrder) - parseFloat(b.menuOrder));
 
+  // Order pages by menuOrder
+  navPages.sort((a, b) => parseFloat(a.menuOrder) - parseFloat(b.menuOrder));
+
   return navPages;
 }
 
